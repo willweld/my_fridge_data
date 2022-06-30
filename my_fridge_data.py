@@ -11,6 +11,9 @@ st.set_page_config(
 )
 
 st.title("My Fridge Data")
+st.write("Like [MyFridgeFood](https://myfridgefood.com/) but for data. Select the data (ingredients) you have and it'll show you the analyses (recipes) you can do with that data. You can also search analyses by use case, as well as combine the data you have with your desired use cases to show relevant analyses.")
+st.info("Note: this is very much in POC phase")
+st.write("---")
 
 with st.sidebar:
     st.subheader("Settings")
