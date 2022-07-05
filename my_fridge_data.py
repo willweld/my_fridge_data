@@ -18,7 +18,7 @@ st.write("---")
 with st.sidebar:
     st.subheader("Settings")
     combine_search = st.checkbox(label="Combine data & use case search", value=False)
-    show_incomplete = st.checkbox(label="Show analyses I have incomplete data for", value=True)
+    show_incomplete = st.checkbox(label="Show analyses I have incomplete data for", value=False)
 
 analyses_dict = {
     "Market Basket Analysis": {
